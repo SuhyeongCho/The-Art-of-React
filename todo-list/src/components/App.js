@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import PageTemplate from './PageTemplate';
+import TodoInput from './TodoInput/TodoInput';
 
 class App extends Component {
     render() {
         return (
             <div>
-                일정 관리
+                <PageTemplate>
+                    <TodoInput/>
+                </PageTemplate>
             </div>
         );
     }
